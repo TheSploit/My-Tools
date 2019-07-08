@@ -115,8 +115,8 @@ echo $ku"["$me"12"$ku"]"$i" XAttacker"
 echo $ku"["$me"13"$ku"]"$i" SPAM SMS BRUTAL TERBARU"
 echo $i"["$me"14"$i"]"$ku" EXIT"
 echo
-echo $pur"Ôò¡ÔöÇ["$pur"Masukkan pilihan anda"$pur"]"
-read -p"Ôò¦ÔöÇ>> " pil
+echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Masukkan pilihan anda"$pur"]"
+read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
 
 if [ $pil = 1 ]
 then
