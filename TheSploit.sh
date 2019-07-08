@@ -93,10 +93,10 @@ sleep 1
 clear
 echo
 echo $pur"==================="$cy" ============================="
-echo $i"Ôûê"$pu"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"                    Ôûê"
+echo $i"Ôûê"$pu"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"            Ôûê"
 echo $i"Ôûê"$pu"  WhatsApp:  081316577616"$i"                Ôûê"
-echo $i"Ôûê"$pu"  Blogger :  https://myamazingapk.blogspot.com"$i"     Ôûê"
-echo $i"Ôûê"$pu"  YOUTUBE :  TryOne"$i"                 Ôûê"
+echo $i"Ôûê"$pu"  Blogger :  myamazingapk.blogspot.com"$i"   Ôûê"
+echo $i"Ôûê"$pu"  YOUTUBE :  TryOne"$i"                      Ôûê"
 echo $pur"==================="$cy" ============================="
 echo
 echo $cy"MeNu BRUTEPORCE NeWS:"
