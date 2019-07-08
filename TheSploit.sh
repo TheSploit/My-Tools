@@ -123,7 +123,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Efbeh-Gelap
+git clone https://github.com/TheSploit/Efbeh-Gelap.git
 cd Efbeh-Gelap
 pip2 install -r requirements.txt
 python2 EfbehGelap.py
@@ -134,7 +134,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Hack-Cam_Phone
+git clone https://github.com/TheSploit/Hack-Cam_Phone.git
 cd Hack-Cam_Phone
 bash saycheese.sh
 fi
@@ -144,7 +144,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/The-RAT
+git clone https://github.com/TheSploit/The-RAT.git
 cd The-RAT
 python2 A-Rat.py
 fi
@@ -154,7 +154,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Sploit-Malicious
+git clone https://github.com/TheSploit/Sploit-Malicious.git
 cd Sploit-Malicious
 python2 malicious.py
 fi
@@ -164,7 +164,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Trojan-DDOS_Attack
+git clone https://github.com/TheSploit/Trojan-DDOS_Attack.git
 cd Trojan-DDOS_Attack
 python3 Trojan.py
 fi
@@ -174,7 +174,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Spam-SMS-Call
+git clone https://github.com/TheSploit/Spam-SMS-Call.git
 cd Spam-SMS-Call
 php fakeCall.php
 fi
@@ -184,7 +184,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Spam-SMS-Call
+git clone https://github.com/TheSploit/Spam-SMS-Call.git
 cd Spam-SMS-Call
 php spam.php
 fi
@@ -194,7 +194,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Locate_Track
+git clone https://github.com/TheSploit/Locate_Track.git
 cd Locate_Track
 bash lokasi.sh
 fi
@@ -204,7 +204,7 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Fb-Creat_Free
+git clone https://github.com/TheSploit/Fb-Creat_Free.git
 cd Fb-Creat_Free
 python2 fb-maker.py
 fi
