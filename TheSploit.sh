@@ -93,13 +93,13 @@ sleep 1
 clear
 echo
 echo $pur"==================="$cy" ============================="
-echo $i"Ôûê"$pu"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"            Ôûê"
-echo $i"Ôûê"$pu"  WhatsApp:  081316577616"$i"                Ôûê"
-echo $i"Ôûê"$pu"  Blogger :  myamazingapk.blogspot.com"$i"   Ôûê"
-echo $i"Ôûê"$pu"  YOUTUBE :  TryOne"$i"                      Ôûê"
+echo $i"##"$pu"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"              ##"
+echo $i"##"$pu"  WhatsApp:  081316577616"$i"                 ##"
+echo $i"##"$pu"  Blogger :  myamazingapk.blogspot.com"$i"    ##"
+echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                       ##"
 echo $pur"==================="$cy" ============================="
 echo
-echo $cy"MeNu BRUTEPORCE NeWS:"
+echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
 echo $ku"["$me"1"$ku"]"$i" Efbeh-Gelap"
 echo $ku"["$me"2"$ku"]"$i" Hack-Cam_Phone"
 echo $ku"["$me"3"$ku"]"$i" The-RAT"
