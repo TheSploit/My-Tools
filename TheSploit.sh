@@ -218,7 +218,7 @@ gem install lolcat
 git clone https://github.com/muhammadfathul/VIRTEX
 cd VIRTEX
 chmod +x virtex.sh
-sh virtex.shfi
+sh virtex.sh
 fi
 
 if [ $pil = 9 ]
