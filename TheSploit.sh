@@ -100,7 +100,7 @@ echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                       ##"
 echo $pur"==================="$cy" ============================="
 echo
 echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
-echo $i"|"$me" 1"$i" |"$cy" Efbeh-Gelap"
+echo $i"["$pu"2"$ku"]"$i" Efbeh-Gelap"
 echo $ku"["$me"2"$ku"]"$i" Hack-Cam_Phone"
 echo $ku"["$me"3"$ku"]"$i" Check IP"
 echo $ku"["$me"4"$ku"]"$i" Malicious"
