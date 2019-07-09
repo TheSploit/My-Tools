@@ -113,7 +113,10 @@ echo $ku"["$me"10"$ku"]"$i" SPAM WHATSHAPP"
 echo $ku"["$me"11"$ku"]"$i" Insta_Hack(Root-Only)"
 echo $ku"["$me"12"$ku"]"$i" XAttacker"
 echo $ku"["$me"13"$ku"]"$i" SPAM SMS BRUTAL TERBARU"
-echo $i"["$me"14"$i"]"$ku" EXIT"
+echo $ku"["$me"14"$ku"]"$i" Trojan32-DDOS"
+echo $ku"["$me"15"$ku"]"$i" Botnet"
+echo $ku"["$me"16"$ku"]"$i" Xerxes"
+echo $i"["$me"17"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -254,8 +257,43 @@ cd brutalsms
 python2 brutalsms.py
 fi
 
-
 if [ $pil = 14 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/TheSploit/Tools-DDOS
+cd Tools-DDOS
+python3 trojan32.py
+fi
+
+if [ $pil = 15 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/TheSploit/Tools-DDOS
+cd Tools-DDOS
+python3 botnet.py
+fi
+
+if [ $pil = 16 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+pkg update && pkg upgrade
+pkg install php
+pkg install python2
+pkg install mechanize
+pkg install openssh
+pkg install git
+git clone https://github.com/TheSploit/Xerxes
+cd Xerxes
+gcc xerxes.c -o xerxes
+fi
+
+if [ $pil = 17 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
