@@ -111,12 +111,20 @@ echo $ku"["$me"8"$ku"]"$i" Virteks"
 echo $ku"["$me"9"$ku"]"$i" Phone Sploit"
 echo $ku"["$me"10"$ku"]"$i" CCTV"
 echo $ku"["$me"11"$ku"]"$i" Insta_Hack(Root-Only)"
-echo $ku"["$me"12"$ku"]"$i" XAttacker"
+echo $ku"["$me"12"$ku"]"$i" Phising vers.01"
 echo $ku"["$me"13"$ku"]"$i" SPAM SMS BRUTAL TERBARU"
 echo $ku"["$me"14"$ku"]"$i" Trojan32-DDOS"
 echo $ku"["$me"15"$ku"]"$i" Botnet"
 echo $ku"["$me"16"$ku"]"$i" Xerxes"
-echo $i"["$me"17"$i"]"$ku" EXIT"
+echo $ku"["$me"17"$ku"]"$i" Phising vers.02"
+echo $ku"["$me"18"$ku"]"$i" Phising vers.03"
+echo $ku"["$me"19"$ku"]"$i" Phising vers.04"
+echo $ku"["$me"20"$ku"]"$i" Belum Update Zheyenk"
+echo $ku"["$me"21"$ku"]"$i" Hack Twitter (Root-Only)"
+echo $ku"["$me"22"$ku"]"$i" Hack Gmail(Root-Only)"
+echo $ku"["$me"23"$ku"]"$i" Youtube AutoView (Root-Only)"
+echo $ku"["$me"24"$ku"]"$i" Spam Instagram"
+echo $i"["$me"25"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -265,10 +273,13 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/Moham3dRiahi/XAttacker.git
-cd XAttacker
-chmod +x termux-install.sh
-bash termux-install.sh
+apt update
+apt upgrade
+pkg install openssh
+pkg install curl
+git clone https://github.com/thelinuxchoice/shellphish.git
+cd shellphish
+bash shellphish.sh
 fi
 
 if [ $pil = 13 ]
@@ -318,6 +329,101 @@ gcc xerxes.c -o xerxes
 fi
 
 if [ $pil = 17 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+apt update
+apt upgrade
+git clone https://github.com/thelinuxchoice/blackeye.git
+cd blackeye
+bash blackeye.sh
+fi
+
+if [ $pil = 18 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+apt update
+apt upgrade
+git clone https://github.com/UndeadSec/SocialFish.git
+cd SocialFish
+chmod +x *
+pip2 install -r requirements.txt
+python2 SocialFish.py
+fi
+
+if [ $pil = 19 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/evait-security/weeman.git
+chmod +x *
+python2 weeman.py
+fi
+
+if [ $pil = 20 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+Belum Update
+fi
+
+if [ $pil = 21 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/thelinuxchoice/tweetshell
+cd tweetshell
+chmod +x tweetshell.sh
+bash tweetshell.sh
+fi
+
+if [ $pil = 22 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+apt update && apt upgrade
+git clone https://github.com/thelinuxchoice/gmailshell.git
+cd gmailshell
+bash gmailshell.sh
+fi
+
+if [ $pil = 23 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+apt update
+apt upgrade
+apt install python
+apt install git
+git clone https://github.com/thelinuxchoice/youbot.git
+cd youbot
+service tor start
+sudo ./youbot.sh URL
+fi
+
+if [ $pil = 24 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+apt update
+apt upgrade
+apt install git
+git clone https://github.com/thelinuxchoice/instaspam.git
+ls
+cd instaspam
+bash instaspam.sh
+fi
+
+if [ $pil = 25 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
