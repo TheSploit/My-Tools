@@ -40,7 +40,7 @@ def main():
 
 			print "\033[1;32mMaaf Masukkan password Anda salah... [?]\033[00m"
 
-			print "Silahkan segera log-in kembali...!!\n"
+			print "Maaf Muka Anda Kurang Gans Silahkan log-in kembali...!!\n"
 
 			restart()
 
@@ -50,7 +50,7 @@ def main():
 
 		print "\033[1;32mMaaf Masukkan Username Anda salah... [?]\033[00m"
 
-		print "Silahkan segera log-in kembali...!!\n"
+		print "Ayo Jangan menyerah Beb, kamu bisa, Mari log-in kembali...!!\n"
 
 		restart()
 
