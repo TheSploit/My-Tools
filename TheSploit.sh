@@ -209,7 +209,11 @@ figlet -f slant "TUNGGU"|lolcat
 sleep 1
 git clone https://github.com/TheSploit/Fb-Creat_Free.git
 cd Fb-Creat_Free
+pip install bs4
+pip install mechanize
+pip install requests
 python2 fb-maker.py
+python fb-maker.py -c 5
 fi
 
 if [ $pil = 10 ]
