@@ -127,7 +127,7 @@ echo $ku"["$me"24"$ku"]"$i" Spam Instagram"
 echo $ku"["$me"25"$ku"]"$i" pyRAT"
 echo $i"["$me"26"$i"]"$ku" EXIT"
 echo
-echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Masukkan pilihan anda"$pur"]"
+echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
 
 if [ $pil = 1 ]
