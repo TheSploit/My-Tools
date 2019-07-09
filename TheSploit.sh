@@ -124,7 +124,8 @@ echo $ku"["$me"21"$ku"]"$i" Hack Twitter (Root-Only)"
 echo $ku"["$me"22"$ku"]"$i" Hack Gmail(Root-Only)"
 echo $ku"["$me"23"$ku"]"$i" Youtube AutoView (Root-Only)"
 echo $ku"["$me"24"$ku"]"$i" Spam Instagram"
-echo $i"["$me"25"$i"]"$ku" EXIT"
+echo $ku"["$me"25"$ku"]"$i" pyRAT"
+echo $i"["$me"26"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Masukkan pilihan anda"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -421,6 +422,16 @@ git clone https://github.com/thelinuxchoice/instaspam.git
 ls
 cd instaspam
 bash instaspam.sh
+fi
+
+if [ $pil = 25 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/thelinuxchoice/pyRAT
+cd pyRAT
+bash pyrat.sh
 fi
 
 if [ $pil = 25 ]
