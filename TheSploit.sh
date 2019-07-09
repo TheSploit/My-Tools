@@ -12,8 +12,8 @@ python2 sploit.py
 echo
 clear
 echo
-echo $red"          Tool akan di install dalam waktu 5 detik"
-echo $red"            Silahkan Menunggu :v("   
+echo $red"          Lagi Nginstall Toolsnya Beb silahkan tunggu 12 Jam Mendatang"
+echo $red"            Sellow Beb Lagi Nginstall Nih Tunggu ya Say..."   
 sleep 1
 echo '''\a
 \033[34;1m                              _
@@ -31,8 +31,8 @@ echo
 echo
 echo
 echo
-echo $red"         Tool akan di install dalam waktu 5 detik"
-echo $red"            Silahkan Menunggu :v"
+echo $red"         Sabar Say masih ada 99 Angka sebelum menuju ke Menu"
+echo $red"            Jika Anda Gans Maka Proses Installasi akan cepat"
 sleep 1
 echo '''\a
 \033[32;1m                             ____
@@ -50,8 +50,8 @@ echo
 echo
 echo
 echo
-echo $red"         Tool akan di install dalam waktu 5 detik"
-echo $red"            Silahkan Menunggu :v"
+echo $red"         Sabar Bos masih ada 98 Angka Sebelum Ke Menu"
+echo $red"            Semakin Gans Semakin Cepat Masuk ke Menu"
 sleep 1
 echo '''\a
 \033[35;1m                            _____
@@ -65,8 +65,8 @@ echo
 echo
 echo
 echo
-echo $red"         Tool akan di install dalam waktu 5 detik"
-echo $red"            Silahkan Menunggu :v"
+echo $red"         Sabar Ya Zheyenkk Tersisa hm.. 100 Deh kyknya"
+echo $red"            Btw Jika Anda Cewe hubungi :081316577616"
 sleep 1
 echo '''\a
 \033[33;1m                            _  _
@@ -80,8 +80,8 @@ echo
 echo
 echo
 echo
-echo $red"         Tool akan di install dalam waktu 5 detik"
-echo $red"            Silahkan Menunggu :v"
+echo $red"         Prosses failed to go to the Main Menu"
+echo $red"            F For Respect"
 sleep 1
 echo '''\a
 \033[36;1m                             ____
@@ -100,7 +100,7 @@ echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                       ##"
 echo $pur"==================="$cy" ============================="
 echo
 echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
-echo $ku"["$me"1"$pur"]"$i" Efbeh-Gelap"
+echo $ku"["$me"1"$ku"]"$i" Efbeh-Gelap"
 echo $ku"["$me"2"$ku"]"$i" Hack-Cam_Phone"
 echo $ku"["$me"3"$ku"]"$i" Check IP"
 echo $ku"["$me"4"$ku"]"$i" Malicious"
