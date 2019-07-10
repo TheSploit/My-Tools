@@ -104,7 +104,7 @@ echo $ku"["$me"1"$ku"]"$i" Efbeh-Gelap"
 echo $ku"["$me"2"$ku"]"$i" Hack-Cam_Phone"
 echo $ku"["$me"3"$ku"]"$i" Check IP"
 echo $ku"["$me"4"$ku"]"$i" Malicious"
-echo $ku"["$me"5"$ku"]"$i" Trojan-DDOS"
+echo $ku"["$me"5"$ku"]"$i" Trojan-DDOS(Close)"
 echo $ku"["$me"6"$ku"]"$i" Spam-Call"
 echo $ku"["$me"7"$ku"]"$i" Spam-Sms"
 echo $ku"["$me"8"$ku"]"$i" Virteks"
@@ -186,11 +186,9 @@ fi
 if [ $pil = 5 ]
 then
 clear
-figlet -f slant "TUNGGU"|lolcat
+figlet -f slant "Maaf Tools ini Sedang Close"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Trojan-DDOS_Attack.git
-cd Trojan-DDOS_Attack
-python3 Trojan.py
+
 fi
 
 if [ $pil = 6 ]
