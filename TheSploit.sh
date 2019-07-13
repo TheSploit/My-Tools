@@ -128,7 +128,8 @@ echo $ku"["$me"25"$ku"]"$i" pyRAT"
 echo $ku"["$me"26"$ku"]"$i" RedHawk"
 echo $ku"["$me"27"$ku"]"$i" SpamMasal"
 echo $ku"["$me"28"$ku"]"$i" Script Deface Creator"
-echo $i"["$me"29"$i"]"$ku" EXIT"
+echo $ku"["$me"29"$ku"]"$i" BRUTEFORCE FB PHP"
+echo $i"["$me"30"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -474,8 +475,20 @@ cd Script-Deface-Creator
 python2 create.py
 fi
 
-
 if [ $pil = 29 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+apt update && apt upgrade
+apt-get install python
+apt-get install git
+git clone https://github.com/TheSploit/Fbbruteforce
+cd Fbbruteforce
+php fb.php
+fi
+
+if [ $pil = 30 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
