@@ -425,7 +425,7 @@ cd instaspam
 bash instaspam.sh
 fi
 
-iif [ $pil = 25 ]
+if [ $pil = 25 ]
 then
 clear
 figlet -f slant "TUNGGU"|lolcat
@@ -440,10 +440,6 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-os.system("xdg-open https://chat.whatsapp.com/JucSayw6ysDLQNAftfRSRM")
-os.system("clear")
-print("\n\n Silahkeun Join Bujankk\n\n")
-os.system("clear")
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 cd RED_HAWK
 php rhawk.php
@@ -467,5 +463,7 @@ sleep 2
 echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
 sleep 2
 echo $pur"SUBSCRIBE MY CHANNEL { TryOne }"
+os.system("xdg-open https://chat.whatsapp.com/JucSayw6ysDLQNAftfRSRM")
+os.system("clear")
 exit
 fi
