@@ -129,7 +129,10 @@ echo $ku"["$me"26"$ku"]"$i" RedHawk"
 echo $ku"["$me"27"$ku"]"$i" SpamMasal"
 echo $ku"["$me"28"$ku"]"$i" Script Deface Creator"
 echo $ku"["$me"29"$ku"]"$i" BRUTEFORCE FB PHP"
-echo $i"["$me"30"$i"]"$ku" EXIT"
+echo $ku"["$me"30"$ku"]"$i" BRUTEFORCE FB(Root-Only)"
+echo $ku"["$me"31"$ku"]"$i" Clone Yahoo FB"
+echo $ku"["$me"32"$ku"]"$i" Keperluan Efbeh"
+echo $i"["$me"33"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -489,6 +492,39 @@ php fb.php
 fi
 
 if [ $pil = 30 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1git clone https://github.com/thelinuxchoice/facebash.git
+cd facebash
+bash facebash.sh
+fi
+
+if [ $pil = 31 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+apt update && apt upgrade
+apt-get install python
+apt-get install git
+git clone https://github.com/TheSploit/CloneYahoo
+cd CloneYahoo
+python2 Cloning.py
+fi
+
+if [ $pil = 32 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/FR13ND8/InfoFB
+cd InfoFB
+pip2 install -r requirements.txt
+python2 info.py
+fi
+
+if [ $pil = 33 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
