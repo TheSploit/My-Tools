@@ -440,8 +440,6 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-os.system("xdg-open https://chat.whatsapp.com/JucSayw6ysDLQNAftfRSRM")
-os.system("clear")
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 cd RED_HAWK
 php rhawk.php
