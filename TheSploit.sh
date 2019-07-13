@@ -471,7 +471,7 @@ pkg install python
 pkg install git
 git clone https://github.com/Aditia18/Script-Deface-Creator.git
 cd Script-Deface-Creator
-python create.py
+python2 create.py
 fi
 
 
