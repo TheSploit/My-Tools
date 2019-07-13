@@ -125,7 +125,7 @@ echo $ku"["$me"22"$ku"]"$i" Hack Gmail(Root-Only)"
 echo $ku"["$me"23"$ku"]"$i" Youtube AutoView (Root-Only)"
 echo $ku"["$me"24"$ku"]"$i" Spam Instagram"
 echo $ku"["$me"25"$ku"]"$i" pyRAT"
-echo $ku"["$me"26"$ku"]"$i" RedHawk
+echo $ku"["$me"26"$ku"]"$i" RedHawk"
 echo $i"["$me"27"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
@@ -440,6 +440,8 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
+os.system("xdg-open https://chat.whatsapp.com/JucSayw6ysDLQNAftfRSRM")
+os.system("clear")
 git clone https://github.com/Tuhinshubhra/RED_HAWK.git
 cd RED_HAWK
 php rhawk.php
@@ -463,7 +465,5 @@ sleep 2
 echo $pur"Terima kasih Yang Sudah Support dengan Tools ini"
 sleep 2
 echo $pur"SUBSCRIBE MY CHANNEL { TryOne }"
-os.system("xdg-open https://chat.whatsapp.com/JucSayw6ysDLQNAftfRSRM")
-os.system("clear")
 exit
 fi
