@@ -126,7 +126,9 @@ echo $ku"["$me"23"$ku"]"$i" Youtube AutoView (Root-Only)"
 echo $ku"["$me"24"$ku"]"$i" Spam Instagram"
 echo $ku"["$me"25"$ku"]"$i" pyRAT"
 echo $ku"["$me"26"$ku"]"$i" RedHawk"
-echo $i"["$me"27"$i"]"$ku" EXIT"
+echo $ku"["$me"27"$ku"]"$i" SpamMasal"
+echo $ku"["$me"28"$ku"]"$i" Script Deface Creator"
+echo $i"["$me"29"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -446,6 +448,34 @@ php rhawk.php
 fi
 
 if [ $pil = 27 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+pkg update && pkg upgrade
+pkg install python
+pip install requests
+pkg install git
+git clone https://github.com/KANG-NEWBIE/C-SpamMasal
+cd C-SpamMasal
+python callmas.py
+fi
+
+if [ $pil = 28 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+pkg update && pkg upgrade
+pkg install python
+pkg install git
+git clone https://github.com/Aditia18/Script-Deface-Creator.git
+cd Script-Deface-Creator
+python create.py
+fi
+
+
+if [ $pil = 29 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
