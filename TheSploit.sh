@@ -133,7 +133,8 @@ echo $ku"["$me"30"$ku"]"$i" BRUTEFORCE FB(Root-Only)"
 echo $ku"["$me"31"$ku"]"$i" Clone Yahoo FB"
 echo $ku"["$me"32"$ku"]"$i" Keperluan Efbeh"
 echo $ku"["$me"33"$ku"]"$i" Lazymux"
-echo $i"["$me"34"$i"]"$ku" EXIT"
+echo $ku"["$me"34"$ku"]"$i" BlackHydra"
+echo $i"["$me"35"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -535,7 +536,18 @@ cd Lazymux
 python2 lazymux.py
 fi
 
+
 if [ $pil = 34 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+git clone https://github.com/TheSploit/BlackHydra
+cd BlackHydra
+python2 blackhydra.py
+fi
+
+if [ $pil = 35 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
