@@ -142,16 +142,8 @@ read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
 if [ $pil = 1 ]
 then
 clear
-figlet -f slant "TUNGGU"|lolcat
+figlet -f slant "Lagi Perbaikan"|lolcat
 sleep 1
-pkg update
-pkg upgrade
-pkg install python2
-pip2 install mechanize
-pip2 install request
-git clone https://github.com/https://github.com/m4rche3ll-cyber/dark-vpro.git
-cd dark-vpro
-python2 dark-vpro.py
 fi
 
 if [ $pil = 2 ]
