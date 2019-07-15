@@ -142,8 +142,14 @@ read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
 if [ $pil = 1 ]
 then
 clear
-figlet -f slant "Lagi Perbaikan"|lolcat
+figlet -f slant "Tunggu"|lolcat
 sleep 1
+pkg install git python2
+pip2 install --upgrade pip
+git clone https://github.com/TheSploit/Efbeh-Gelap.git
+cd Efbeh-Gelap
+pip2 install -r requirements.txt
+python2 EfbehGelap.py
 fi
 
 if [ $pil = 2 ]
