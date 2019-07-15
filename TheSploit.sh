@@ -100,7 +100,7 @@ echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                       ##"
 echo $pur"==================="$cy" ============================="
 echo
 echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
-echo $ku"["$me"1"$ku"]"$i" Efbeh-Gelap"
+echo $ku"["$me"1"$ku"]"$i" Dark FB"
 echo $ku"["$me"2"$ku"]"$i" Hack-Cam_Phone"
 echo $ku"["$me"3"$ku"]"$i" Check IP"
 echo $ku"["$me"4"$ku"]"$i" Malicious"
@@ -144,10 +144,14 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Efbeh-Gelap.git
-cd Efbeh-Gelap
-pip2 install -r requirements.txt
-python2 EfbehGelap.py
+pkg update
+pkg upgrade
+pkg install python2
+pip2 install mechanize
+pip2 install request
+git clone https://github.com/https://github.com/m4rche3ll-cyber/dark-vpro.git
+cd dark-vpro
+python2 dark-vpro.py
 fi
 
 if [ $pil = 2 ]
