@@ -134,7 +134,8 @@ echo $ku"["$me"31"$ku"]"$i" Clone Yahoo FB"
 echo $ku"["$me"32"$ku"]"$i" Keperluan Efbeh"
 echo $ku"["$me"33"$ku"]"$i" Lazymux"
 echo $ku"["$me"34"$ku"]"$i" BlackHydra"
-echo $i"["$me"35"$i"]"$ku" EXIT"
+echo $ku"["$me"35"$ku"]"$i" Admin Finder"
+echo $i"["$me"36"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -550,6 +551,20 @@ python2 blackhydra.py
 fi
 
 if [ $pil = 35 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+pkg update 
+pkg upgrade
+pkg install python
+pkg install git
+pip2 install termcolor
+git clone https://github.com/TheSploit/Admin-Finder.git
+cd Admin-Finder
+fi
+
+if [ $pil = 36 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
