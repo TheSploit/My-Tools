@@ -562,6 +562,7 @@ pkg install git
 pip2 install termcolor
 git clone https://github.com/TheSploit/Admin-Finder.git
 cd Admin-Finder
+python2 AdminLogin.py
 fi
 
 if [ $pil = 36 ]
