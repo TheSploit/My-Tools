@@ -105,7 +105,7 @@ echo $ku"["$me"2"$ku"]"$i" Hack-Cam_Phone"
 echo $ku"["$me"3"$ku"]"$i" Check IP"
 echo $ku"["$me"4"$ku"]"$i" Malicious"
 echo $ku"["$me"5"$ku"]"$i" TrojanAtt"
-echo $ku"["$me"6"$ku"]"$i" Spam-Call"
+echo $ku"["$me"6"$ku"]"$i" Spam-Call(Perbaikan)"
 echo $ku"["$me"7"$ku"]"$i" Spam-Sms"
 echo $ku"["$me"8"$ku"]"$i" Virteks"
 echo $ku"["$me"9"$ku"]"$i" Phone Sploit"
@@ -209,11 +209,8 @@ fi
 if [ $pil = 6 ]
 then
 clear
-figlet -f slant "TUNGGU"|lolcat
+figlet -f slant "Tools Sedang Perbaikan"|lolcat
 sleep 1
-git clone https://github.com/TheSploit/Spam-SMS-Call.git
-cd Spam-SMS-Call
-php fakeCall.php
 fi
 
 if [ $pil = 7 ]
