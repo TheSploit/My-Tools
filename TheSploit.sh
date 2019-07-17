@@ -135,7 +135,8 @@ echo $ku"["$me"32"$ku"]"$i" Keperluan Efbeh"
 echo $ku"["$me"33"$ku"]"$i" Lazymux"
 echo $ku"["$me"34"$ku"]"$i" BlackHydra"
 echo $ku"["$me"35"$ku"]"$i" Admin Finder"
-echo $i"["$me"36"$i"]"$ku" EXIT"
+echo $ku"["$me"36"$ku"]"$i" Deface Webdav"
+echo $i"["$me"37"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -565,7 +566,23 @@ cd Admin-Finder
 python2 AdminLogin.py
 fi
 
+
 if [ $pil = 36 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+pkg update && pkg upgrade
+pkg install git
+pkg install python2 
+pkg install toilet -y
+git clone https://github.com/BlackCyberAnonim/B-Deface.git
+cd B-Deface
+ls
+sh BCA.sh
+fi
+
+if [ $pil = 37 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
