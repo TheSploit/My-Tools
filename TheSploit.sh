@@ -162,12 +162,12 @@ echo $ku"["$me"59"$ku"]"$i" Installation Ko-Dork"
 echo $ku"["$me"60"$ku"]"$i" Check Spec HP"
 echo $ku"["$me"61"$ku"]"$i" Installation Fat-Rat"
 echo $ku"["$me"62"$ku"]"$i" Installation CMSmap"
-echo $ku"["$me"63"$ku"]"$i" Installation Ubuntu"
+echo $ku"["$me"63"$ku"]"$i" Installation Termux Ubuntu"
 echo $ku"["$me"64"$ku"]"$i" Installation Ngrok"
-echo $ku"["$me"65"$ku"]"$i" Installation Lokomedia Eksploiters"
-echo $ku"["$me"66"$ku"]"$i" Installation Net-Hunter"
+echo $ku"["$me"65"$ku"]"$i" Installation lokomedia Eksploiter"
+echo $ku"["$me"66"$ku"]"$i" Installation NetHunter"
 echo $ku"["$me"67"$ku"]"$i" Installation Jomscan"
-echo $ku"["$me"68"$ku"]"$i" Installation Vuln Scanner"
+echo $ku"["$me"68"$ku"]"$i" Installation VulnScann"
 echo $ku"["$me"69"$ku"]"$i" Installation Linux Fedora"
 echo $i"["$me"70"$i"]"$ku" EXIT"
 echo
@@ -750,8 +750,7 @@ fi
 if [ $pil = 47 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg install php
 pkg install wget
@@ -763,8 +762,7 @@ fi
 if [ $pil = 48 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg install curl
 curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
@@ -780,8 +778,7 @@ fi
 if [ $pil = 49 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 apt install python2
@@ -798,8 +795,7 @@ fi
 if [ $pil = 50 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 apt install git
@@ -813,8 +809,7 @@ fi
 if [ $pil = 51 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 apt install git
@@ -829,8 +824,7 @@ fi
 if [ $pil = 52 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 apt install git
@@ -845,8 +839,7 @@ fi
 if [ $pil = 53 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 apt install git
@@ -861,8 +854,7 @@ fi
 if [ $pil = 54 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg install git
 pkg install python2
@@ -875,8 +867,7 @@ fi
 if [ $pil = 55 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg install python2
 pkg install git
@@ -889,8 +880,7 @@ fi
 if [ $pil = 56 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg install php
 pkg install python2
@@ -906,8 +896,7 @@ fi
 if [ $pil = 57 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg install git
 pkg install python2
@@ -920,8 +909,7 @@ fi
 if [ $pil = 58 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg install python
 pkg install git
@@ -936,8 +924,7 @@ fi
 if [ $pil = 59 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg update && pkg upgrade
 pkg install git 
@@ -951,8 +938,7 @@ fi
 if [ $pil = 60 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 pkg install neofetech
 neofetech
@@ -961,8 +947,7 @@ fi
 if [ $pil = 61 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt-get update && apt-get upgrade
 apt-get install git
@@ -976,8 +961,7 @@ fi
 if [ $pil = 62 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt-get update 
 apt-get upgrade
@@ -992,8 +976,7 @@ fi
 if [ $pil = 63 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 apt install git
@@ -1009,8 +992,7 @@ fi
 if [ $pil = 64 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 apt install wget
@@ -1026,8 +1008,7 @@ fi
 if [ $pil = 65 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 pkg install php
@@ -1041,8 +1022,7 @@ fi
 if [ $pil = 66 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update 
 apt upgrade
@@ -1057,8 +1037,7 @@ fi
 if [ $pil = 67 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update 
 apt upgrade
@@ -1073,8 +1052,7 @@ fi
 if [ $pil = 68 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update 
 apt upgrade
@@ -1089,8 +1067,7 @@ fi
 if [ $pil = 69 ]
 then
 clear
-cowsay -f kiss.cow "TheSploit" | lolcat
-figlet "TUNGGU" | lolcat
+figlet -f slant "TUNGGU"|lolcat
 sleep 1
 apt update && apt upgrade
 apt-get install git
