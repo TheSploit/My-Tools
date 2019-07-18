@@ -119,7 +119,7 @@ echo $ku"["$me"16"$ku"]"$i" Xerxes"
 echo $ku"["$me"17"$ku"]"$i" Phising vers.02"
 echo $ku"["$me"18"$ku"]"$i" Phising vers.03"
 echo $ku"["$me"19"$ku"]"$i" Phising vers.04"
-echo $ku"["$me"20"$ku"]"$i" Belum Update Zheyenk"
+echo $ku"["$me"20"$ku"]"$i" Termux Key Arrow"
 echo $ku"["$me"21"$ku"]"$i" Hack Twitter (Root-Only)"
 echo $ku"["$me"22"$ku"]"$i" Hack Gmail(Root-Only)"
 echo $ku"["$me"23"$ku"]"$i" Youtube AutoView (Root-Only)"
@@ -413,7 +413,11 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-Belum Update
+pkg install python
+pkg install git
+git clone https://github.com/TheSploit/panahKey.git
+cd panahKey
+python Sploit.py
 fi
 
 if [ $pil = 21 ]
