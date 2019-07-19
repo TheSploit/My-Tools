@@ -169,7 +169,8 @@ echo $ku"["$me"66"$ku"]"$i" Installation NetHunter"
 echo $ku"["$me"67"$ku"]"$i" Installation Jomscan"
 echo $ku"["$me"68"$ku"]"$i" Installation Vuln Scanner"
 echo $ku"["$me"69"$ku"]"$i" Linux Fedora"
-echo $i"["$me"70"$i"]"$ku" EXIT"
+echo $ku"["$me"70"$ku"]"$i" Installation server"
+echo $i"["$me"71"$i"]"$ku" EXIT"
 echo
 echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
@@ -1083,6 +1084,18 @@ sh termux-fedora.sh
 fi
 
 if [ $pil = 70 ]
+then
+clear
+figlet -f slant "TUNGGU"|lolcat
+sleep 1
+apt-get install curl -y
+curl -LO https://github.com/sachin175638/server1.git
+chmod +x server.sh
+ls
+sh server.sh
+fi
+
+if [ $pil = 71 ]
 then
 clear
 figlet -f slant "TUNGGU"|Ulolcat
