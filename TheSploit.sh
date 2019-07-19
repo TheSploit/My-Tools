@@ -1091,7 +1091,6 @@ sleep 1
 apt-get install curl -y
 curl -LO https://github.com/sachin175638/server1.git
 chmod +x server.sh
-ls
 sh server.sh
 fi
 
