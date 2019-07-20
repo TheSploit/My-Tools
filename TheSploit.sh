@@ -93,16 +93,16 @@ sleep 1
 clear
 echo
 echo $pur"==================="$cy" ============================="
-echo $i"##"$pu"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"              ##"
+echo $i"##"$me"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"              ##"
 echo $i"##"$pu"  WhatsApp:  081316577616"$i"                 ##"
-echo $i"##"$pu"  Blogger :  myamazingapk.blogspot.com"$i"    ##"
+echo $i"##"$me"  Blogger :  myamazingapk.blogspot.com"$i"    ##"
 echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                       ##"
 echo $pur"==================="$cy" ============================="
 echo
 echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
-echo $ku"["$me"1"$ku"]"$i" Dark FB"
-echo $ku"["$me"2"$ku"]"$i" Hack-Cam_Phone"
-echo $ku"["$me"3"$ku"]"$i" Check IP"
+echo $bi"["$pu"1"$bi"]"$i" Dark FB"
+echo $bi"["$pu"2"$bi"]"$i" Hack-Cam_Phone"
+echo $me"["$pu"3"$me"]"$i" Check IP"
 echo $ku"["$me"4"$ku"]"$i" Malicious"
 echo $ku"["$me"5"$ku"]"$i" TrojanAtt"
 echo $ku"["$me"6"$ku"]"$i" Spam-Call(Perbaikan)"
