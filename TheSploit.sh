@@ -860,11 +860,8 @@ then
 clear
 figlet -f slant "TUNGGU"|lolcat
 sleep 1
-pkg install git
-pkg install python2
-git clone https://github.com/senitopeng/PhisingGame.git
-mv PhisingGame $HOME
-cd $HOME/PhisingGame
+git clone https://github.com/mobiletech4u/PhisingGame.git
+cd PhisingGame
 python2 phising.py
 fi
 
