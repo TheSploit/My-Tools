@@ -93,7 +93,7 @@ clear
 	clear
 	echo
 	echo $pur"==================="$cy" ============================="
-	echo $i"##"$me"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"                ##"
+	echo $i"##"$me"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"               ##"
 	echo $i"##"$pu"  WhatsApp:  081316577616"$i"                  ##"
 	echo $i"##"$me"  Blogger :  myamazingapk.blogspot.com"$i"     ##"
 	echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                        ##"
@@ -101,18 +101,18 @@ clear
 	echo
 	echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
 	echo
-	echo $me"[==============="$pu"===============]      
-	echo $bi"["$pu"1"$bi"]"$i" Dark FB'
+	echo $me"[==============="$pu"===============]        "$me"────────"
+	echo $bi"["$pu"1"$bi"]"$i" Dark FB  		       "$i"|"$bi"    #"$cy" Active"$bi" #"
 	echo $me"[==============="$pu"===============]"
-	echo $bi"["$pu"2"$bi"]"$i" Hack-Cam_Phone"
+	echo $bi"["$pu"2"$bi"]"$i" Hack-Cam_Phone	       "$i"|"$bi"    #"$cy" Active"$bi" #"
 	echo $me"[==============="$pu"===============]"
-	echo $me"["$pu"3"$me"]"$i" Check IP"                   
+	echo $me"["$pu"3"$me"]"$i" Check IP                   "$i"|"$bi"    #"$cy" Active"$bi" #"
 	echo $me"[==============="$pu"===============]"
-	echo $bi"["$pu"4"$bi"]"$i" Malicious"
+	echo $bi"["$pu"4"$bi"]"$i" Malicious                  "$i"|"$bi"    #"$cy" Active"$bi" #"
 	echo $me"[==============="$pu"===============]"
-	echo $bi"["$pu"5"$bi"]"$i" TrojanAtt"
+	echo $bi"["$pu"5"$bi"]"$i" TrojanAtt                  "$i"|"$bi"    #"$cy" Active"$bi" #"
 	echo $me"[==============="$pu"===============]"
-	echo $me"["$pu"6"$me"]"$i" Spam-Call"
+	echo $me"["$pu"6"$me"]"$i" Spam-Call(Perbaikan)"
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"7"$bi"]"$i" Spam-Sms"
 	echo $me"[==============="$pu"===============]"
@@ -134,7 +134,7 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"16"$bi"]"$i" Xerxes"
 	echo $me"[==============="$pu"===============]"
-	echo $bi"["$pu"17"$bi"]"$i" Phising vers.02"                  
+	echo $bi"["$pu"17"$bi"]"$i" Phising vers.02"
 	echo $me"[==============="$pu"===============]"
 	echo $me"["$pu"18"$me"]"$i" Phising vers.03"
 	echo $me"[==============="$pu"===============]"
@@ -242,8 +242,8 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $me"["$me"70"$me"]"$i" CLOSED"
 	echo $me"[==============="$pu"===============]"
-	echo $me"["$bi"71"$i"]"$me" EXIT                  
-	echo
+	echo $me"["$bi"71"$i"]"$me" EXIT"
+	Echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 	read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
 	
@@ -1251,4 +1251,3 @@ clear
 	echo $pur"SUBSCRIBE MY CHANNEL { TryOne }"
 	exit
 	fi
-
