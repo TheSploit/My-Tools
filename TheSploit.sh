@@ -240,10 +240,16 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"69"$ku"]"$i" Linux Fedora"
 	echo $me"[==============="$pu"===============]"
-	echo $me"["$me"70"$me"]"$i" CLOSED"
+	echo $me"["$me"70"$me"]"$i" ezsploit"
 	echo $me"[==============="$pu"===============]"
-	echo $me"["$bi"71"$i"]"$me" EXIT"
-	Echo
+	echo $bi"["$pu"71"$ku"]"$i" Human_Level_Control_through_Deep_Reinforcement_Learning"
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"72"$ku"]"$i" Termux Mpv"
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"73"$ku"]"$i" OWASP-NetAttacker"
+	echo $me"[==============="$pu"===============]"
+	echo $me"["$bi"00"$i"]"$me" EXIT"
+	echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 	read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
 	
@@ -1225,13 +1231,59 @@ clear
 
 	if [ $pil = 70 ]
 	then
-	clear
-	figlet -f slant "CLOSED TOOLS"|lolcat
+	toilet -f big -F gay "TheSploit"
 	sleep 1
+	apt update
+	apt upgrade
+	apt install git
+	git clone https://github.com/rand0m1ze/ezsploit
+	mv ezsploit $HOME
+	cd $HOME/ezsploit
+	bash ezsploit.sh
 	fi
-	
 
 	if [ $pil = 71 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	sleep 1apt update 
+	apt upgrade
+	apt install git 
+	apt install php
+	git clone https://github.com/whackashoe/Human_Level_Control_through_Deep_Reinforcement_Learning.git
+	mv Human_Level_Control_through_Deep_Reinforcement_Learning $HOME
+	cd $HOME/Human_Level_Control_through_Deep_Reinforcement_Learning
+	sh install_dependencies.sh
+	fi
+
+	if [ $pil = 72 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	sleep 1apt update 
+	apt update 
+	apt upgrade
+	apt install git 
+	apt install php
+	git clone https://github.com/Neo-Oli/Termux-Mpv.git
+	mv Termux-Mpv $HOME
+	cd $HOME/Termux-Mpv
+	python2 setup.py
+	fi
+
+if [ $pil = 73 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	sleep 1apt update 
+	apt update 
+	apt upgrade
+	apt install git 
+	apt install python
+	git clone https://github.com/zdresearch/OWASP-Nettacker
+	mv OWASP-Nettacker $HOME
+	cd $HOME/OWASP-Nettacker
+	python2 setup.py 
+	fi
+
+	if [ $pil = 00 ]
 	then
 	clear
 	figlet -f slant "TUNGGU"|Ulolcat
