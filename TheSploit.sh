@@ -101,9 +101,9 @@ clear
 	echo
 	echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
 	echo
-	echo $me"[==============="$pu"===============]        "$me"───────"$bi"Tested All No rm Files"$pu"─────────────"
-	echo $bi"["$pu"1"$bi"]"$i" Dark FB 		      "$me"───────"$bi"No One Imposibble If you Trying"$pu─────"	                   
-	echo $me"[==============="$pu"===============]        "$me"──────────────────────"$pu"─────────────────────────"
+	echo $me"[==============="$pu"===============]"        $me"───────"$bi"Tested All No rm Files"$pu"─────────────"
+	echo $bi"["$pu"1"$bi"]"$i" Dark FB" 		      $me"───────"$bi"No One Imposibble If you Trying"$pu─────"	                   
+	echo $me"[==============="$pu"===============]"        $me"──────────────────────"$pu"─────────────────────────"
 	echo $bi"["$pu"2"$bi"]"$i" Hack-Cam_Phone"
 	echo $me"[==============="$pu"===============]"
 	echo $me"["$pu"3"$me"]"$i" Check IP"
