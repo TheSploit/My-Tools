@@ -243,7 +243,7 @@ clear
 	echo $me"["$me"70"$me"]"$i" CLOSED"
 	echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"71"$i"]"$me" EXIT                  
-	Echo
+	echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
 	read -p"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ " pil
 	
