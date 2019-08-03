@@ -93,10 +93,10 @@ clear
 	clear
 	echo
 	echo $pur"==================="$cy" ============================="
-	echo $i"##"$me"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"              ##"
-	echo $i"##"$pu"  WhatsApp:  081316577616"$i"                 ##"
-	echo $i"##"$me"  Blogger :  myamazingapk.blogspot.com"$i"    ##"
-	echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                       ##"
+	echo $i"##"$me"  AUTHOR  :  ⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ  "$i"               ##"
+	echo $i"##"$pu"  WhatsApp:  081316577616"$i"                  ##"
+	echo $i"##"$me"  Blogger :  myamazingapk.blogspot.com"$i"     ##"
+	echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                        ##"
 	echo $pur"==================="$cy" ============================="
 	echo
 	echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
