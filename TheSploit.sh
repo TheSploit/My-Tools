@@ -248,6 +248,8 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"73"$ku"]"$i" OWASP-NetAttacker"
 	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"74"$ku"]"$i" Encrpyt Script .py"
+	echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
@@ -1283,6 +1285,19 @@ if [ $pil = 73 ]
 	python2 setup.py 
 	fi
 
+if [ $pil = 74 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	sleep 1apt update 
+	apt update 
+	apt upgrade
+	apt install git 
+	apt install php
+	git clone https://github.com/TheSploit/Python-Encrypt
+	cd Python-Encrypt
+	python2 sploit.py
+	fi
+	
 	if [ $pil = 00 ]
 	then
 	clear
