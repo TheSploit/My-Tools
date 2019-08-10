@@ -1,67 +1,67 @@
-import os, sys	
+import os, sys
 
-print ("\033[1;32mSilahkan Masukkan Username & Password Anda")	
+print ("\033[1;32mSilahkan Masukkan ID & Password Anda")
 
- print ("\033[1;32matau silahkan Contact 081316577616 ")	
+print ("\033[1;32matau silahkan Hubungi 081316577616 ")
 
- username = 'TheSploit'      	
+ID = 'TheSploit'      
 
- password = 'Sploit1109'	
-
-
-
- def restart():	
-
- 	ngulang = sys.executable	
-
- 	os.execl(ngulang, ngulang, *sys.argv)	
+password = 'Sploit1109'
 
 
 
- def main():	
+def restart():
 
- 	uname = raw_input("username : ")	
+	ngulang = sys.executable
 
- 	if uname == username:	
-
- 		pwd = raw_input("password : ")	
+	os.execl(ngulang, ngulang, *sys.argv)
 
 
 
- 		if pwd == password:	
+def main():
 
- 			print "\033[1;32mSukses Masuk Gayn..", 	
+	uname = raw_input("ID : ")
 
- 			sys.exit()	
+	if uname == ID:
 
-
-
- 		else:	
-
- 			print "\033[1;32mMaaf Masukkan password Anda salah... [?]\033[00m"	
-
- 			print "Maaf Muka Anda Kurang Gans Silahkan log-in kembali...!!\n"	
-
- 			restart()	
+		pwd = raw_input("password : ")
 
 
 
- 	else:	
+		if pwd == password:
 
- 		print "\033[1;32mMaaf Masukkan Username Anda salah... [?]\033[00m"	
+			print "\033[1;32mSuksess Login To My-Tools..", 
 
- 		print "Ayo Jangan menyerah Beb, kamu bisa, Mari log-in kembali...!!\n"	
-
- 		restart()	
+			sys.exit()
 
 
 
- try:	
+		else:
 
- 	main()	
+			print "\033[1;32mMaaf Password Anda Salah Silahkeun Coba Lagi... [?]\033[00m"
 
- except KeyboardInterrupt:	
+			print "Silahkan log-in kembali untuk Masuk ke My-Tools...!!\n"
 
- 	os.system('clear')	
+			restart()
 
- 	restart()
+
+
+	else:
+
+		print "\033[1;32mMaaf  ID Anda salah Silahkeun Check Kembali Untuk Masuk... [?]\033[00m"
+
+		print "Silahkan log-in kembali untuk Login ke My-Tools...!!\n"
+
+		restart()
+
+
+
+try:
+
+	main()
+
+except KeyboardInterrupt:
+
+	os.system('clear')
+
+	restart()
