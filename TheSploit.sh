@@ -6,6 +6,8 @@ clear
 	me='\033[31;1m' #merah
 	pu='\033[37;1m' #purple
 	ku='\033[33;1m' #kuning
+	Lightred='\033[91m' #Merah Cahaya
+	BrightBlue='\033[34m' #Cahaya Biru
 	echo
 	echo
 	python2 sploit.py
