@@ -14,15 +14,15 @@ clear
 	echo
 	clear
 	echo
-	echo $red"          Lagi Nginstall Toolsnya Beb silahkan tunggu 12 Jam Mendatang"
+	echo $blue"          ======================+++++++++++==================="
 	echo $red"            Sellow Beb Lagi Nginstall Nih Tunggu ya Say..."   
 	sleep 1
 	echo '''\a
-	\033[34;1m                              _
-	\033[32;1m                             / |
-	\033[35;1m                             | |
-	\033[36;1m                             | |
-	\033[37;1m                            _|_|_ '''
+	\033[34;1m                              ____  __.
+	\033[32;1m                             |    |/ _|
+	\033[35;1m                             |      < 
+	\033[36;1m                             |    |  \ 
+	\033[37;1m                             |____|__ \
 	sleep 1
 	apt update && apt upgrade
 	apt install nano
@@ -33,15 +33,16 @@ clear
 	echo
 	echo
 	echo
-	echo $red"         Sabar Say masih ada 99 Angka sebelum menuju ke Menu"
+	echo $blue"         ======================+++++++++++==================="
 	echo $red"            Jika Anda Gans Maka Proses Installasi akan cepat"
 	sleep 1
 	echo '''\a
-	\033[32;1m                             ____
-	\033[34;1m                            |___ \
-	\033[35;1m                             __) |
-	\033[36;1m                            / __/
-	\033[37;1m                           |_____| '''
+	\033[32;1m                             ______  
+	\033[34;1m                            (_____ \ 
+	\033[35;1m                             _____) ) 
+	\033[36;1m                            |  __  / 
+	\033[37;1m                            | |  \ \ 
+	\033[36;1m                            |_|   |_|
 	sleep 1
 	apt install php
 	pip2 install mechanize
@@ -52,45 +53,47 @@ clear
 	echo
 	echo
 	echo
-	echo $red"         Sabar Bos masih ada 98 Angka Sebelum Ke Menu"
+	echo $blue"         ======================+++++++++++==================="
 	echo $red"            Semakin Gans Semakin Cepat Masuk ke Menu"
 	sleep 1
 	echo '''\a
-	\033[35;1m                            _____
-	\033[36;1m                           |___ /
-	\033[37;1m                             |_ \
-	\033[34;1m                            ___) |
-	\033[32;1m                           |____/ '''
+	\033[35;1m                           _
+	\033[36;1m                          | |
+	\033[37;1m                          | |
+	\033[34;1m                          | |
+	\033[32;1m                          |_|
 	sleep 1
 	clear
 	echo
 	echo
 	echo
 	echo
-	echo $red"         Sabar Ya Zheyenkk Tersisa hm.. 100 Deh kyknya"
+	echo $blue"         ======================+++++++++++==================="
 	echo $red"            Btw Jika Anda Cewe hubungi :081316577616"
 	sleep 1
 	echo '''\a
-	\033[33;1m                            _  _
-	\033[34;1m                           | || |
-	\033[35;1m                           | || |_
-	\033[36;1m                           |__   _|
-	\033[37;1m                              |_| '''
+	\033[33;1m                             ______ 
+	\033[34;1m                            / _____)
+	\033[35;1m                           ( (____  
+	\033[36;1m                            \____ \ 
+	\033[37;1m                            _____) )
+	\033[35;1m		             (______/ 
 	sleep 1
 	clear
 	echo
 	echo
 	echo
 	echo
-	echo $red"         Prosses failed to go to the Main Menu"
+	echo $white"         Prosses failed to go to the Main Menu"
 	echo $red"            F For Respect"
 	sleep 1
 	echo '''\a
-	\033[36;1m                             ____
-	\033[35;1m                            | ___|
-	\033[34;1m                            |___ \
-	\033[33;1m                             ___) |
-	\033[32;1m                            |____/ '''
+	\033[36;1m                               ______ _     _ ______   ______    _______ _______ 
+	\033[35;1m                              / _____|_)   (_|____  \ / _____)  (_______|_______)
+	\033[34;1m                             ( (____  _     _ ____)  | (____     _  _  _ _____   
+	\033[33;1m                              \____ \| |   | |  __  ( \____ \   | ||_|| |  ___)  
+	\033[32;1m                              _____) ) |___| | |__)  )_____) )  | |   | | |_____ 
+	\033[34;1m                             (______/ \_____/|______/(______/   |_|   |_|_______)
 	sleep 1
 	clear
 	echo
@@ -102,6 +105,7 @@ clear
 	echo $pur"==================="$cy" ============================="
 	echo $i"[" $me" INI TOOLS GERATIS GAYN", $bi"DILARANG KERAD MENJUALNYA KE PIHAK LAINNYA" $i"]"
 	echo $i"[" $me" TOOLS FREE USE, NO NEED TO PAYS" $pu"!!!" $i"]"
+	echo #pu"~~~~~~~~~~~~~~~~~~~~~"$me"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 	echo
 	echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
 	echo
