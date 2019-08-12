@@ -98,6 +98,8 @@ clear
 	echo $i"##"$me"  Blogger :  myamazingapk.blogspot.com"$i"     ##"
 	echo $i"##"$pu"  YOUTUBE :  TryOne"$i"                        ##"
 	echo $pur"==================="$cy" ============================="
+	echo $i"[" $me" INI TOOLS GERATIS GAYN", $bi"DILARANG KERAD MENJUALNYA KE PIHAK LAINNYA" $i"]"
+	echo $i"[" $me" TOOLS FREE USE, NO NEED TO PAYS" $pu"!!!" $i"]"
 	echo
 	echo $cy"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ Menu:"
 	echo
