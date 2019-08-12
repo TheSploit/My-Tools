@@ -1,9 +1,9 @@
 import os, sys
 
-print ("\033[1;32mSilahkan Masukkan ID & Password Anda")
+print ("\033[1;34mSilahkan Masukkan ID & Password Anda")
 
-print ("\033[1;32matau silahkan Hubungi 081316577616 ")
-
+print ("\033[1;35matau silahkan Hubungi 081316577616 ")
+print ("\033[1;32mJgn Ngasal Cok ntr salah ")
 ID = 'TheSploit'      
 
 password = 'Sploit1109'
