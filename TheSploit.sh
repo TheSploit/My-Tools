@@ -257,6 +257,36 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"75"$ku"]"$i" WebKiller"
 	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"76"$ku"]"$i" Installation Tool-X"
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"77"$ku"]"$i" Installation Mrcakil Tools"
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"78"$ku"]"$i" Installation D-Tech Tools"
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"79"$ku"]"$i" Installation Mr.Rv1.1 Tools"
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"80"$ku"]"$i" BAJINGANv6 "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"81"$ku"]"$i" Installation MBF Tools "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"82"$ku"]"$i" Installation Android Malware Tools "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"83"$ku"]"$i" Installation SigPloit Tools "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"84"$ku"]"$i" Installation Sn1per Tools "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"85"$ku"]"$i" Installation Mass Depes GG Tools "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"86"$ku"]"$i" Installation QRLJacking GG Tools "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"87"$ku"]"$i" Installation Bull Tools "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"88"$ku"]"$i" Installation Termux-Banner "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"89"$ku"]"$i" Installation Mirai-Source-Code Tools "
+	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"90"$ku"]"$i" Installation Hale Tools "
+	echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
@@ -1316,6 +1346,151 @@ if [ $pil = 74 ]
 	git clone https://github.com/ultrasecurity/webkiller
 	cd webkiller
 	python2 webkiller.py
+	fi
+	
+	if [ $pil = 76 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/Rajkumrdusad/Tool-X
+	echo -e "${y} Installer Tool-X..."
+	echo -e "${y} cd Tool-X"
+	echo -e "${y} ./install.aex"
+	fi
+	
+	if [ $pil = 77 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/mrcakil/Mrcakil.git
+	echo -e "${y} installer Mrcakil..."
+	echo -e "${y} cd Mrcakil"
+	echo -e "${y} ./tools"
+	fi
+	
+	if [ $pil = 78 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/shawarkhanethicalhacker/D-TECT
+	echo -e "${y} cara menggunakan D-TECT..."
+	echo -e "${y} cd D-TECT"
+	echo -e "${y} chmod +x d-tect.py"
+	echo -e "${y} python2 d-tect.py"
+	fi
+	
+	if [ $pil = 79 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/Mr-R225/Mr.Rv1.1
+	echo -e "${y} installer Mr.Rv1.1..."
+	echo -e "${y} cd Mr.Rv1.1"
+	echo -e "${y} sh Mr.Rv1.1.sh"
+	fi
+	
+	if [ $pil = 80 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/DarknessCyberTeam/BAJINGANv6
+	echo -e "${y} cara memggunakan BAJINGANv6..."
+	echo -e "${y} cd BAJINGANv6"
+	echo -e "${y} sh BAJINGAN.sh"
+	echo -e "${y} USERNAME:BAJINGAN"
+	echo -e "${y} PASSWORD:Gans"
+	fi
+	
+	if [ $pil = 81 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/pirmansx/mbf
+	echo -e "${y} installing MBF..."
+	echo -e "${y} cd mbf"
+	echo -e "${y} python2 MBF.py"
+	fi
+	
+	if [ $pil = 82 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/ashishb/android-malware
+	echo -e "${y} Cara membuat virus"
+	echo -e "${y} cd android-malware"
+	echo -e "${y} ls"
+	echo -e "${y} Nah kalian tinggal masuk ke dictory virusnya"
+	echo -e "${y} Contoh = cd xbot"
+	echo -e "${y} ls"
+	echo -e "${y} Nah kalian tinggal pindahin virus itu ke sdcard"
+	fi
+	
+	if [ $pil = 83 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/SigPloiter/SigPloit
+	cd SigPloit
+	pip2 install -r requirements.txt
+	python sigploit.py
+	fi
+	
+	if [ $pil = 84 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/1N3/Sn1per
+	
+	fi
+	
+	if [ $pil = 85 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	toilet -f big -F gay "Tools Belum di Update"
+	fi
+	
+	if [ $pil = 86 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/OWASP/QRLJacking
+	
+	fi
+	
+	if [ $pil = 87 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/Bhai4You/Bulltools
+	cd Bulltools
+	sh Bulltools.sh
+	fi
+	
+	if [ $pil = 88 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/Bhai4You/Termux-Banner
+	cd Termux-Banner
+	chmod +x requirement.sh
+	chmod +x t-ban.sh
+	bash requirement.sh
+	bash t-ban.sh
+	fi
+	
+	if [ $pil = 89 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/jgamblin/Mirai-Source-Code
+	fi
+	
+	if [ $pil = 90 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/pjlantz/Hale
 	fi
 	
 	if [ $pil = 00 ]
