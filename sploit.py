@@ -4,9 +4,9 @@ print ("\033[1;34mSilahkan Masukkan ID & Password My-Tools")
 
 print ("\033[1;35matau silahkan Hubungi 081316577616 ")
 print ("\033[1;32mJgn Ngasal Cok ntr salah ")
-ID = 'TheSploit'      
+ID = 'TheSploit1109001'      
 
-password = 'Sploit1109'
+password = 'Sploit1109001'
 
 
 
