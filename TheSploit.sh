@@ -287,6 +287,8 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"90"$ku"]"$i" Installation Hale Tools "
 	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"91"$ku"]"$i" Sploit-Payload "
+	echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
@@ -1491,6 +1493,15 @@ if [ $pil = 74 ]
 	toilet -f big -F gay "TheSploit"
 	clear
 	git clone https://github.com/pjlantz/Hale
+	fi
+	
+	if [ $pil = 91 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	git clone https://github.com/TheSploit/Sploit-Payload
+	cd Sploit-Payload
+	python2 thesploit.py
 	fi
 	
 	if [ $pil = 00 ]
