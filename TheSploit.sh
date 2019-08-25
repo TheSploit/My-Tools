@@ -289,6 +289,8 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"91"$ku"]"$i" Sploit-Payload "
 	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"92"$ku"]"$i" Enigma "
+	echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
@@ -1502,6 +1504,20 @@ if [ $pil = 74 ]
 	git clone https://github.com/TheSploit/Sploit-Payload
 	cd Sploit-Payload
 	python2 thesploit.py
+	fi
+	
+	if [ $pil = 92 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	figlet -f slant "TUNGGU"|lolcat
+	sleep 1
+	pkg install curl
+	git clone https://github.com/UndeadSec/Enigma
+	cd Enigma
+	echo "\033[33;1Kunjungi Youtube Saya:" "\033[36;1m https://www.youtube.com/channel/UCyNZMCmIT1lVxC0d1QUwqyA?view_as=subscriber"
+	sleep 5
+	python2 enigma.py
 	fi
 	
 	if [ $pil = 00 ]
