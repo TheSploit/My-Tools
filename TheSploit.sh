@@ -938,15 +938,12 @@ clear
 	clear
 	figlet -f slant "TUNGGU"|lolcat
 	sleep 1
-	pkg install curl
-	curl -LO https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
-	chmod +x metasploit.sh
-	./metasploit.sh
+	https://github.com/verluchie/termux-metasploit.sh
+	cd termux-metasploit
 	echo "\033[33;1Kunjungi Youtube Saya:" "\033[36;1m https://www.youtube.com/channel/UCyNZMCmIT1lVxC0d1QUwqyA?view_as=subscriber"
 	sleep 5
-	mv metasploit-framework $HOME
-	cd $HOME/metasploit-framework
-	./msfconsole
+	chmod 777 install.sh
+	sh install.sh
 	fi
 	
 
