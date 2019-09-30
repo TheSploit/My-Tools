@@ -293,6 +293,8 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"93"$ku"]"$i" Horror Tools "
 	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"94"$ku"]"$i" Payload Android "
+	echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
@@ -1530,6 +1532,21 @@ if [ $pil = 74 ]
 	sleep 5
 	chmod +x horor.sh 
 	sh horor.sh
+	fi
+	
+	if [ $pil = 94 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	figlet -f slant "TUNGGU"|lolcat
+	sleep 1
+	pkg install curl
+	git clone https://github.com/sachin175638/andro
+	cd andro
+	echo "\033[33;1Kunjungi Youtube Saya:" "\033[36;1m https://www.youtube.com/channel/UCyNZMCmIT1lVxC0d1QUwqyA?view_as=subscriber"
+	sleep 5
+	chmod +x setup.sh 
+	sh andro-rat.sh
 	fi
 	
 	if [ $pil = 00 ]
