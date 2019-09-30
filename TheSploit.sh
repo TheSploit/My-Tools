@@ -295,6 +295,8 @@ clear
 	echo $me"[==============="$pu"===============]"
 	echo $bi"["$pu"94"$ku"]"$i" Payload Android "
 	echo $me"[==============="$pu"===============]"
+	echo $bi"["$pu"95"$ku"]"$i" Google Dorkers "
+	echo $me"[==============="$pu"===============]"
 	echo $me"["$bi"00"$i"]"$me" EXIT"
 	echo
 	echo $pur"⊱XͭPͪLͤᗝIƬ༻₁₀₀ᵏ["$pur"Tentukan pilihan kamu Sekarang"$pur"]"
@@ -1548,7 +1550,21 @@ if [ $pil = 74 ]
 	chmod +x setup.sh 
 	sh andro-rat.sh
 	fi
-	
+
+if [ $pil = 95 ]
+	then
+	toilet -f big -F gay "TheSploit"
+	clear
+	figlet -f slant "TUNGGU"|lolcat
+	sleep 1
+	pkg install curl
+	git clone https://github.com/Hood3dRob1n/BinGoo
+	cd BinGoo
+	echo "\033[33;1Kunjungi Youtube Saya:" "\033[36;1m https://www.youtube.com/channel/UCyNZMCmIT1lVxC0d1QUwqyA?view_as=subscriber"
+	sleep 5
+	./bingoo
+	fi
+
 	if [ $pil = 00 ]
 	then
 	clear
