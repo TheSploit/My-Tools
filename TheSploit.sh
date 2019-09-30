@@ -938,10 +938,10 @@ clear
 	clear
 	figlet -f slant "TUNGGU"|lolcat
 	sleep 1
-	wget https://raw.githubusercontent.com/Hax4us/Metasploit_termux/master/metasploit.sh
-	echo "\033[33;1Kunjungi Youtube Saya:" "\033[36;1m https://www.youtube.com/channel/UCyNZMCmIT1lVxC0d1QUwqyA?view_as=subscriber"
-	sleep 5
-	chmod +x metasploit.sh && ./metasploit.sh
+	git clone https://github.com/sachin175638/tools
+	cd tools
+	chmod +x tools.sh
+	sh tools.sh
 	fi
 	
 
